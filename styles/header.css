@@ -1,0 +1,28 @@
+/* netflix 로고와 사용자 아이콘을 보여주는 헤더 */
+
+.header {
+  height: 64px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 80px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
