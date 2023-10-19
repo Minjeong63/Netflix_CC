@@ -90,11 +90,20 @@
 }
 
 .movie:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   border-radius: 4px;
 }
 
 .movie {
   width: 120px;
   height: 180px;
+}
+
+.movies-title2-container {
+  margin-left: 4px;
+  margin-top: 12px;
+}
+
+.trending-container {
+  margin-bottom: 24px;
 }
